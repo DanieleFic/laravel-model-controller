@@ -1,1 +1,1 @@
-@dd($movie_dati);
+@extends('layouts.app')

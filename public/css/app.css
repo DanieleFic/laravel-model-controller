@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap);.ms_header {
+  height: 100px;
+  color: red;
+  background-color: black;
+  text-align: center;
+}
+
+.ms_header h1 {
+  padding-top: 20px;
+}
+
+.ms_container {
+  text-align: center;
+  background-color: green;
+}
+
+/* @import 'partials/_comic'; */
+
+/* @import 'partials/_footer';  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
