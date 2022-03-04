@@ -7,7 +7,7 @@
             {{--  @foreach($element as $film) --}}
                 <div class="ms_boxfilm">
                     {{-- <img src="{{$element["thumb"]}}" alt=""> --}}
-                    <h3>{{$element->title}}</h3>
+                    <h2>{{$element->title}}</h2>
                     <p>{{$element->original_title}}</p>
                     <p>{{$element->nationality}}</p>
                     <p>{{$element->date}}</p>

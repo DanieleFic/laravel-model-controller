@@ -1,22 +1,25 @@
 .ms_container{
     text-align: center;
-    background-color: green;
+    background-color: rgb(201, 211, 201);
+    font-family: roboto;
 }
 
 .ms_containerfilm{
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1300px;
     height: calc(100vh - 100px);
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 
 .ms_boxfilm{
     height: 200px;
-    width: calc(1400px/6);
+    width: 220px;
     padding: 10px 30px;
-    margin: 0px 10px;
+    margin: 0px 2px;
     margin-top: 45px;
-    background-color: blue;
+    background-color: rgb(145, 145, 214);
+    border: 1px solid rgb(139, 114, 114);
 }
