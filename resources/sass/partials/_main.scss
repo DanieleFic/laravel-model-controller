@@ -2,3 +2,21 @@
     text-align: center;
     background-color: green;
 }
+
+.ms_containerfilm{
+    margin: 0 auto;
+    max-width: 1400px;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.ms_boxfilm{
+    height: 200px;
+    width: calc(1400px/6);
+    padding: 10px 30px;
+    margin: 0px 10px;
+    margin-top: 45px;
+    background-color: blue;
+}
